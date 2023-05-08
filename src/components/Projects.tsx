@@ -26,7 +26,7 @@ export default function Projects({ projects }: Props) {
               key={i}
             > 
               <motion.img
-                className='w-[30rem]'
+                className='w-[31rem]'
                 initial={{ y: -300, opacity: 0 }}
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
