@@ -23,7 +23,7 @@ export default function Projects({ projects }: Props) {
           {projects?.map((project,i)=>(
             <div 
               className='w-screen flex-shrink-0 snap-center flex flex-col items-center justify-center p-20 md:p-44 h-screen'
-              key={i}
+              key={project._id}
             > 
               <motion.img
                 className='w-[31rem]'
