@@ -24,7 +24,7 @@ export default function Projects({ projects }: Props) {
             <div 
               className='w-screen flex-shrink-0 snap-center flex flex-col items-center justify-center p-20 md:p-44 h-screen'
               key={i}
-            >
+            > 
               <motion.img
                 className='w-[30rem]'
                 initial={{ y: -300, opacity: 0 }}
