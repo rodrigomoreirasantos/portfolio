@@ -16,7 +16,7 @@ export default function ExperienceCards({experience}: Props) {
 
     return (
     <article 
-        className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[400px] xl:w-[700px] 
+        className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[400px] xl:w-[500px] 
         snap-center bg-[#292929] p-10 xs:p-5 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-300 overflow-hidden'
     >
         <motion.img
@@ -29,7 +29,7 @@ export default function ExperienceCards({experience}: Props) {
             alt={experience.company}
         />
 
-        <div className='px-0 md:px-10'>
+        <div className='px-0 md:px-1'>
             <h4 className='text-base md:text-2xl font-light'>{experience.jobTitle}</h4>
             <p className='font-bold text-base md:text-xl mt-1'>{experience.company}</p>
             <div className='flex space-x-2 my-2'>
