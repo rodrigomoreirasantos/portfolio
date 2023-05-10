@@ -24,7 +24,7 @@ export default function ExperienceCards({experience}: Props) {
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             // viewport={{ once: true }}
-            className='w-32 h-32 rounded-full xs:w-16 xs:h-16 lg:w-20 lg:h-20 xl:w-[200px] xl:h-[200px] object-cover object-center'
+            className='md:w-20 md:h-20 rounded-full xs:w-16 xs:h-16 lg:w-24 lg:h-24 xl:w-[100px] xl:h-[100px] object-cover object-center'
             src={urlFor(experience?.companyImage).url()}
             alt={experience.company}
         />
