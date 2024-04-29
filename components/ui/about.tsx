@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Skills from "./skills";
 
 const About = () => {
   return (
@@ -16,22 +17,7 @@ const About = () => {
       <div>
         <h3 className="font-bold">Skills</h3>
         <div className="flex flex-row gap-4">
-          <Image
-            src="/next.svg"
-            alt="Nextjs Icon"
-            height={0}
-            width={0}
-            sizes="100vw"
-            className="h-10 w-10 object-contain"
-          />
-          <Image
-            src="/react.svg"
-            alt="Nextjs Icon"
-            height={0}
-            width={0}
-            sizes="100vw"
-            className="h-10 w-10 object-contain"
-          />
+          <Skills />
         </div>
       </div>
     </div>
