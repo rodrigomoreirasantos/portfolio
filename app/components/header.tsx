@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/sheet";
 import { Github, Linkedin, MenuIcon } from "lucide-react";
 import Link from "next/link";
+import Menu from "./menu";
 
 const Header = () => {
   return (
@@ -20,18 +21,7 @@ const Header = () => {
           <Link href="https://github.com/rodrigomoreirasantos">
             <Github />
           </Link>
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button variant="outline">
-                <MenuIcon />
-              </Button>
-            </SheetTrigger>
-
-            <SheetContent>
-              <SheetHeader>Menu</SheetHeader>
-              <Button></Button>
-            </SheetContent>
-          </Sheet>
+          <Menu />
         </div>
       </div>
     </header>
