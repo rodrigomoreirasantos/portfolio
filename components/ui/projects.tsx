@@ -62,6 +62,40 @@ const Projects = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae,
             expedita sapiente temporibus totam pariatur aspernatur, id sit
           </p>
+          <div className="flex gap-4 py-2">
+            <Image
+              src="/next.svg"
+              alt="Nextjs Icon"
+              height={0}
+              width={0}
+              sizes="100vw"
+              className="h-6 w-6 object-contain"
+            />
+            <Image
+              src="/react.svg"
+              alt="React Icon"
+              height={0}
+              width={0}
+              sizes="100vw"
+              className="h-6 w-6 object-contain"
+            />
+            <Image
+              src="/tailwindcss.svg"
+              alt="Tailwind Icon"
+              height={0}
+              width={0}
+              sizes="100vw"
+              className="h-6 w-6 object-contain"
+            />
+            <Image
+              src="/postgresql.svg"
+              alt="Tailwind Icon"
+              height={0}
+              width={0}
+              sizes="100vw"
+              className="h-6 w-6 object-contain"
+            />
+          </div>
         </div>
 
         <Image
