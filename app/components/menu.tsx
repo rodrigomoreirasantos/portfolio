@@ -26,7 +26,13 @@ const Menu = () => {
               <Button className="w-full">About</Button>
             </SheetClose>
           </Link>
-          {/* <Button className="w-full">Projects</Button> */}
+
+          <Link href="#Projects">
+            <SheetClose asChild>
+              <Button className="w-full">Projects</Button>
+            </SheetClose>
+          </Link>
+
           {/* <Button className="w-full">Experience</Button> */}
           {/* <Button className="w-full">Contact</Button> */}
         </div>
