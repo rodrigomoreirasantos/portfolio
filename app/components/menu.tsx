@@ -33,7 +33,12 @@ const Menu = () => {
             </SheetClose>
           </Link>
 
-          {/* <Button className="w-full">Experience</Button> */}
+          <Link href="Experience">
+            <SheetClose asChild>
+              <Button className="w-full">Experience</Button>
+            </SheetClose>
+          </Link>
+
           {/* <Button className="w-full">Contact</Button> */}
         </div>
       </SheetContent>
