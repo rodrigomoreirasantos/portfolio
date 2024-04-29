@@ -21,25 +21,25 @@ const Menu = () => {
       <SheetContent>
         <SheetHeader className="text-left pb-5">Menu</SheetHeader>
         <div className="flex flex-col gap-4">
-          <Link href="#About">
+          <Link href="#about">
             <SheetClose asChild>
               <Button className="w-full">About</Button>
             </SheetClose>
           </Link>
 
-          <Link href="#Projects">
+          <Link href="#projects">
             <SheetClose asChild>
               <Button className="w-full">Projects</Button>
             </SheetClose>
           </Link>
 
-          <Link href="Experience">
+          <Link href="experience">
             <SheetClose asChild>
               <Button className="w-full">Experience</Button>
             </SheetClose>
           </Link>
 
-          <Link href="#Contact">
+          <Link href="#contact">
             <SheetClose asChild>
               <Button className="w-full">Contact</Button>
             </SheetClose>
