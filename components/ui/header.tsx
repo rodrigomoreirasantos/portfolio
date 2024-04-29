@@ -11,18 +11,16 @@ import Menu from "./menu";
 
 const Header = () => {
   return (
-    <header className="py-5">
-      <div className="container w-full flex flex-row justify-between items-center">
-        <p>Rodrigo Moreira Santos</p>
-        <div className="flex flex-row gap-4 items-center">
-          <Link href="https://www.linkedin.com/in/rodrigo-moreira-santos/">
-            <Linkedin />
-          </Link>
-          <Link href="https://github.com/rodrigomoreirasantos">
-            <Github />
-          </Link>
-          <Menu />
-        </div>
+    <header className="container w-full flex flex-row justify-between items-center py-5">
+      <p>Rodrigo Moreira Santos</p>
+      <div className="flex flex-row gap-4 items-center">
+        <Link href="https://www.linkedin.com/in/rodrigo-moreira-santos/">
+          <Linkedin />
+        </Link>
+        <Link href="https://github.com/rodrigomoreirasantos">
+          <Github />
+        </Link>
+        <Menu />
       </div>
     </header>
   );
