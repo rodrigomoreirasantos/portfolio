@@ -39,7 +39,11 @@ const Menu = () => {
             </SheetClose>
           </Link>
 
-          {/* <Button className="w-full">Contact</Button> */}
+          <Link href="#Contact">
+            <SheetClose asChild>
+              <Button className="w-full">Contact</Button>
+            </SheetClose>
+          </Link>
         </div>
       </SheetContent>
     </Sheet>
