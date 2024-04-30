@@ -12,7 +12,7 @@ import Menu from "./menu";
 const Header = () => {
   return (
     <header className="container w-full flex flex-row justify-between items-center py-5">
-      <p>Rodrigo Moreira Santos</p>
+      <p>RMS</p>
       <div className="flex flex-row gap-4 items-center">
         <Link href="https://www.linkedin.com/in/rodrigo-moreira-santos/">
           <Linkedin />
